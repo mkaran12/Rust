@@ -1,10 +1,19 @@
+// fn main(){
+//     let apples = 50;
+//     let oranges = 14 + 6;
+//     let fruits = apples + oranges;
+
+//     println!("My garden");
+//     println!("this years, garden has {} fruits", fruits);
+
+
+// }
 fn main(){
-    let apples = 50;
-    let oranges = 14 + 6;
-    let _fruits = apples + oranges;
+    let mut gym_reps =10;
+    println!(" i had plan to do {gym_reps} reps today");
 
-    println!("My garden");
-    println!("this years, garden has {0} fruits, this was and amazing {1} fruits",apples,oranges);
-
-
+    gym_reps = 15;
+    println!(" i changed my plan to do {gym_reps} reps today");
 }
+//variable shadowing  means redeclaring a variable with the same name
+//the second varibale beacome active
